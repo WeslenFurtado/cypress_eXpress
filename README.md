@@ -17,11 +17,54 @@ Os testes simulam o comportamento do usuário em cenários reais, validando func
 
 ## 🧪 Cenários testados
 
-- Login de usuário
-- Interação com elementos da interface
-- Validação de fluxos completos
-- Asserções de comportamento esperado
-- Captura de evidências
+- Gerenciamento de tarefas (CRUD)
+- Validação de regras de negócio
+- Testes end-to-end (E2E)
+- Validação de interface e comportamento
+
+## 🔍 Cenários de teste detalhados
+
+### 📝 Cadastro de tarefas
+
+**Cenário: Cadastrar nova tarefa**
+- Informar nome da tarefa
+- Criar nova tarefa
+- Validar exibição na lista
+
+**Cenário: Não permitir tarefa duplicada**
+- Criar uma tarefa existente
+- Tentar cadastrar novamente
+- Validar mensagem de erro: "Task already exists!"
+
+**Cenário: Campo obrigatório**
+- Tentar criar tarefa sem nome
+- Validar mensagem de campo obrigatório
+
+---
+
+### 🔄 Atualização de tarefas
+
+**Cenário: Concluir tarefa**
+- Criar uma tarefa pendente
+- Marcar como concluída
+- Validar alteração visual (texto riscado)
+
+---
+
+### ❌ Exclusão de tarefas
+
+**Cenário: Remover tarefa**
+- Criar uma tarefa
+- Remover tarefa
+- Validar que não está mais visível na lista
+
+---
+
+### 🌐 Validação da aplicação
+
+**Cenário: Aplicação online**
+- Acessar a aplicação
+- Validar título da página
 
 ---
 
