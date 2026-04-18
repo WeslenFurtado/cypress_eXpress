@@ -100,6 +100,15 @@ ou
 ```bash
 npx cypress run
 ```
+
+---
+
+## 🎥 Evidência dos testes
+
+▶️ Execução dos testes automatizados:
+
+[📹 Assistir execução dos testes](./cypress/videos/tasks.cy.js.mp4)
+
 ---
 
 ## 📊 Objetivo
